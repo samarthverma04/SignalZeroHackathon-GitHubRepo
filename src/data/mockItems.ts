@@ -1,0 +1,86 @@
+import { Item } from "@/components/items/ItemCard";
+
+export const mockItems: Item[] = [
+  {
+    id: "1",
+    title: "Black Leather Wallet",
+    category: "Wallet",
+    location: "Library, 2nd Floor",
+    date: "Dec 24, 2024",
+    image: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=400&h=300&fit=crop",
+    status: "available",
+    description: "Black bi-fold leather wallet found near the study desks. Contains cards.",
+  },
+  {
+    id: "2",
+    title: "Apple AirPods Pro",
+    category: "Electronics",
+    location: "Cafeteria",
+    date: "Dec 23, 2024",
+    image: "https://images.unsplash.com/photo-1600294037681-c80b4cb5b434?w=400&h=300&fit=crop",
+    status: "claimed",
+    description: "White AirPods Pro in charging case. Found under a table.",
+  },
+  {
+    id: "3",
+    title: "Blue Water Bottle",
+    category: "Personal",
+    location: "Gym",
+    date: "Dec 22, 2024",
+    image: "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=400&h=300&fit=crop",
+    status: "available",
+    description: "Hydro Flask water bottle, blue color, 32oz. Has stickers on it.",
+  },
+  {
+    id: "4",
+    title: "Student ID Card",
+    category: "Documents",
+    location: "Science Building",
+    date: "Dec 21, 2024",
+    image: "https://images.unsplash.com/photo-1578670812003-60745e2c2ea9?w=400&h=300&fit=crop",
+    status: "returned",
+    description: "University student ID card found in hallway.",
+  },
+  {
+    id: "5",
+    title: "Wireless Mouse",
+    category: "Electronics",
+    location: "Computer Lab",
+    date: "Dec 20, 2024",
+    image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop",
+    status: "available",
+    description: "Logitech wireless mouse, grey/black color with USB receiver.",
+  },
+  {
+    id: "6",
+    title: "Set of Keys",
+    category: "Keys",
+    location: "Parking Lot B",
+    date: "Dec 19, 2024",
+    image: "https://images.unsplash.com/photo-1582139329536-e7284fece509?w=400&h=300&fit=crop",
+    status: "available",
+    description: "Car keys with several other keys on a ring. Has a red keychain.",
+  },
+];
+
+export const categories = [
+  "All",
+  "Electronics",
+  "Wallet",
+  "Keys",
+  "Documents",
+  "Personal",
+  "Clothing",
+  "Other",
+];
+
+export const locations = [
+  "All Locations",
+  "Library",
+  "Cafeteria",
+  "Gym",
+  "Science Building",
+  "Computer Lab",
+  "Parking Lot",
+  "Student Center",
+];
